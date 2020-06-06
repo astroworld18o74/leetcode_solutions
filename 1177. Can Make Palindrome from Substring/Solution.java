@@ -18,7 +18,6 @@ class Solution {
             results.add(Integer.bitCount(masks[query[1] + 1] ^ masks[query[0]]) /2 <= query[2]);
         }
     }
-
     return results;
     }
 }
