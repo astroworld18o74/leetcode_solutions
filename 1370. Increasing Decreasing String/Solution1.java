@@ -20,6 +20,7 @@ class Solution1 {
                     sb.append((char) (i + 'a'));
                     freq[i] = freq[i] - 1;
                     count++;
+                    
                 }
             }
         }
