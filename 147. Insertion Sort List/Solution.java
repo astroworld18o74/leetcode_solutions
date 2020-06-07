@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Solution{
     public ListNode insertionSortList(ListNode head) {
         if(head==null || head.next==null)return head;
         ListNode prev,current,result=new ListNode(0);
