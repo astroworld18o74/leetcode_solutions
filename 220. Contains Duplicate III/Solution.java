@@ -1,5 +1,5 @@
 class Solution {
-    public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
+    public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t){
         if(k<1 || t<0)return false;
         Map<Long,Long> map=new HashMap<>();
         for(int i=0;i<nums.length;i++){
